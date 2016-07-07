@@ -1,13 +1,12 @@
 import os
-from flask import flask
+from flask import Flask
 
 app = Flask(__name__)
-# Keeps Flask from swalowing error messages
+# Keeps Flask from swallowing error messages
 app.config['PROPAGATE_EXCEPTIONS'] = True
-
 @app.route("/")
 def insult():
-    return "Hello, Ryan the Butt-licker"
+    return "Hello, Ryan!"
 
 if __name__ == "__main__":
     app.run()
