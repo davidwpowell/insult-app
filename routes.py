@@ -6,7 +6,7 @@ app = Flask(__name__)
 app.config['PROPAGATE_EXCEPTIONS'] = True
 @app.route("/")
 def insult():
-    return "Hello, Ryan!"
+    return "Hello, Ryan! You Butt-Muncher!"
 
 if __name__ == "__main__":
     app.run()
