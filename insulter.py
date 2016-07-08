@@ -9,5 +9,5 @@ def named_insult(name):
 def generate_insult():
     first_adjs = ["artless", "bawdy", "beslubbering", "bootless", "churlish"]
     second_adjs = ["base-court", "bat-fowling", "beef-witted", "beetle-headed", "boil-brained"]
-    nouns = [["apple-john", "baggage", "barnacle", "bladder", "boar-pig"]
+    nouns = ["apple-john", "baggage", "barnacle", "bladder", "boar-pig"]
     return choice(first_adjs) + " " + choice(second_adjs) + " " + choice(nouns)
