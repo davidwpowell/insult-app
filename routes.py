@@ -11,7 +11,7 @@ def insult():
     return insulter.insult()
 
 @app.route("/<name>")
-def insult_name():
+def insult_name(name):
     return insulter.named_insult(name)
 
 if __name__ == "__main__":
